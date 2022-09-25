@@ -1,0 +1,142 @@
+
+
+header{
+    background-image: url(../Img/pl1.jpg);
+    width:100%;
+    height:150px;
+    border-radius: 20px;
+    border: 5px solid red;
+    
+   
+
+}
+
+h1{
+    padding-left: 320px;
+    margin:50px;
+    margin-top: -125px;
+    text-align: center;
+   
+}
+
+
+.logo{
+    width: 1vw;
+    height: 5vh;
+    max-width:  20px;
+    max-height: 100px;
+    margin-top: auto;
+    padding-left: 5px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.logo h1{
+    margin-left: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-right: 15px;
+    float:right;
+    
+    
+}
+
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 100px;
+    position: relative;
+    
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    display: inline-block;
+    color: #E70303;
+    font-weight: 600px;
+    font-size: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    user-select: none;
+    margin: 20px;
+}
+
+.nav ul li a.active,
+.nav ul li a:hover{
+    background-color: #970000;
+    color: #FFFFFF;
+    
+}
+
+li{
+    margin-right: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+        width: 40%;
+        margin-top: 20px;
+        margin-left:15px;
+        border: 5px solid red;
+        border-radius: 30px;
+        height: 450px;
+        align-self: flex-end;
+        text-align: center; 
+        display: inline-flex;
+}
+
+.Titre{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+}
+
+
+
+article{
+    font-family:indie flower;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align: justify;
+    width: 50%;
+    min-width: 200px;
+    position: relative;
+    padding-left: 15px;
+    border: 5px solid red;
+    margin-top: 10px;
+    
+   
+    
+
+}
+  
+article.h2{
+    font-family:indie flower;
+}
+footer{
+    background-color:grey;
+    width: 100%;
+    height: 50px;
+    padding-top:auto;
+}
+
+footer p{
+    text-align: left;
+}
